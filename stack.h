@@ -1,6 +1,7 @@
 #ifndef STACK_H
 #define STACK_H
 #include <stdbool.h> 
+#define MAX_STACK_SIZE 5000
 
 typedef int Item;
 typedef struct stack {
