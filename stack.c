@@ -40,7 +40,7 @@ Item pop(Stack * stack)
 	if (is_empty(stack))
 		stack_underflow();
 	else {
-		printf("--Poped: %d\n", stack->contents[stack->top-1]);
+		printf("Popped value: %d from the stack\n", stack->contents[stack->top-1]);
 		return stack->contents[--stack->top];
 	}
 	return '\0'; /* prevents compiler warning due to stack_underflow() call */
